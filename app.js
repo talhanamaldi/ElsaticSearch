@@ -5,7 +5,7 @@ const path = require('path');
 const { log } = require('console');
 
 const app = express();
-const es = new Client({ node: 'http://10.150.238.177:9200'  });
+const es = new Client({ node: 'http://0.0.0.0:9200'  });
 
 app.use(bodyParser.json());
 
